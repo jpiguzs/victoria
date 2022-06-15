@@ -8,12 +8,12 @@
 @font-face {
     font-family: 'Poppins';
     src: url('/font/Poppins-Regular.ttf')  ;
-    
+
   }
   @font-face {
     font-family: 'Poppins-bold';
     src: url('/font/Poppins-ExtraBold.ttf')  ;
-    
+
   }
 body{
     font-family: 'Poppins';
@@ -21,7 +21,7 @@ body{
 .title-v {
     font-weight: 1000;
     font-family: 'Poppins-bold';
-   
+
     font-size:40px;
 }
 .subtitle-v{
@@ -29,7 +29,7 @@ body{
     font-size: 24px;
 }
 .card--info{
-    
+
     height: 415px;
     border-radius: 60px;
     box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.25);
@@ -41,7 +41,7 @@ background: linear-gradient(90deg, #55D8C1 0%, #426EF0 96.46%);
 border-radius: 60px;
 padding:42px;
 margin: 10px;
-} 
+}
 .bg--info{
     width:100%;
     height: 100% ;
@@ -54,7 +54,7 @@ border-radius: 60px;
 color: white;
 }
 .btn--green1{
-   
+
     background: #55D8C1;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px;
@@ -119,4 +119,53 @@ line-height: 17px;
 text-align: justify;
 
 color: #FFFFFF;
+}
+.bg-btn-slider{
+  background-color: #426EF0;
+  width: 50px;
+  height:50px;
+}
+.custom-caption{
+  background: rgba(0, 0, 0, 0.50);
+  color: white;
+  position: absolute;
+  padding: 10px;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  border-radius: 20px ;
+  transform: translate(-50%,);
+}
+.btn--slider{
+  position: absolute;
+  padding: 10px;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  top:70%;
+  transform: translate(-50%,);
+}
+.footer-v{
+  background:linear-gradient(97.41deg, rgba(66, 110, 240, 0.96) 26.62%, #55D8C1 55.76%);;
+}
+.text--new{
+  font-size: 16px
+}
+@media (max-width: 600px) {
+  .title-v {
+    font-weight: 1000;
+    font-family: 'Poppins-bold';
+
+    font-size:30px;
+}
+.subtitle-v{
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner{
+  background-image: url('/back2.svg') ;
+  background-repeat: no-repeat;
+  background-size: 60%;
+
+  width:100% ;
+  height: 100% ;
+}
 }
