@@ -1,0 +1,122 @@
+// app global css in SCSS form
+.banner{
+    background-image: url('/back2.svg') ;
+    background-repeat: no-repeat;
+    width:100% ;
+    height: 100% ;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('/font/Poppins-Regular.ttf')  ;
+    
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('/font/Poppins-ExtraBold.ttf')  ;
+    
+  }
+body{
+    font-family: 'Poppins';
+}
+.title-v {
+    font-weight: 1000;
+    font-family: 'Poppins-bold';
+   
+    font-size:40px;
+}
+.subtitle-v{
+    font-weight: 500;
+    font-size: 24px;
+}
+.card--info{
+    
+    height: 415px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px ;
+}
+.card--info--2{
+
+background: linear-gradient(90deg, #55D8C1 0%, #426EF0 96.46%);
+border-radius: 60px;
+padding:42px;
+margin: 10px;
+} 
+.bg--info{
+    width:100%;
+    height: 100% ;
+    background: rgba(0, 0, 0, 0.33);
+}
+.btn--blue1{
+    background: #426EF0;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+color: white;
+}
+.btn--green1{
+   
+    background: #55D8C1;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    color: white;
+    }
+.btn--vic{
+    width:200px;
+     font-family: 'Poppins-bold';
+     height:50px;
+     font-size: 16px;
+}
+.img--info{
+    padding-top: 25%;
+}
+.card--modal--vision{
+background: rgba(66, 110, 240, 0.75);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px !important;
+width:100vw;
+padding: 10px;
+}
+.card--modal--history{
+    background: linear-gradient(108.28deg, #428AF0 4.97%, #55D8C1 80.99%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px !important;
+    width:100vw;
+    padding: 10px;
+    }
+.card--modal--mision{
+     background: rgba(85, 216, 193, 0.75);;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px !important;
+    width:100vw;
+    padding: 10px;
+    }
+@media (min-width: 600px){
+    .q-dialog__inner--minimized > div {
+        max-width: 100% !important;
+    }
+}
+.text--bold{
+    font-family: 'Poppins-bold';
+}
+.btn--close{
+    height:40px !important;
+    padding:20px;
+    & .q-btn__content{
+        height:40px !important;
+    }
+    & .q-icon{
+        font-size: 30px !important;
+    }
+}
+.text-data{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 17px;
+/* or 106% */
+
+text-align: justify;
+
+color: #FFFFFF;
+}
