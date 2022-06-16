@@ -48,50 +48,57 @@
           
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="/basico.jpg">
-        <div class=" custom-caption">
-          <div class="title-v">Educación Básica</div>
-          
+      <q-carousel-slide name="cuatro" img-src="/padres.jpg">
+        <div class=" custom-caption text-center">
+          <div class="title-v">Colaboración entre Familia e Institución</div>
+          <div class="subtitle-v "></div>
+
         </div>
         <div class="btn--slider">
-            
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="/media3.jpg">
-        <div class=" custom-caption">
-          <div class="title-v text-center">Educación Media General</div>
-          <div class="subtitle-v  text-center">Primer nivel</div>
-          
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="four" img-src="/diversificado.jpg">
-        <div class=" custom-caption">
-          <div class="title-v">Educación Media General</div>
-          <div class="subtitle-v text-center">Segundo nivel</div>
-          
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="five" img-src="/cancha.jpg">
-        <div class=" custom-caption">
-          <div class="title-v">Area Deportiva</div>
-          
+           
+
           
         </div>
       </q-carousel-slide>
        <q-carousel-slide name="six" img-src="/laboratorio.jpg">
         <div class=" custom-caption">
-          <div class="title-v">Laboratorio de Computaciòn</div>
+          <div class="title-v">Educación Tecnologica</div>
           
           
         </div>
       </q-carousel-slide>
-        <q-carousel-slide name="seven" img-src="/quimica.jpg">
+      <q-carousel-slide name="seven" img-src="/quimica.jpg">
         <div class=" custom-caption">
-          <div class="title-v">Laboratorio de Química</div>
+          <div class="title-v text-center">Educación En Ciencias Naturales</div>
           
           
         </div>
       </q-carousel-slide>
+        <q-carousel-slide name="five" img-src="/cancha.jpg">
+        <div class=" custom-caption">
+          <div class="title-v text-center">Formación Social y Deportiva</div>
+          
+          
+        </div>
+      </q-carousel-slide>
+  
+      <q-carousel-slide name="third" img-src="/media3.jpg">
+        <div class=" custom-caption">
+          <div class="title-v text-center">Enseñanza de Calidad</div>
+         
+          
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="four" img-src="/diversificado.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Preparación Estudios superiores</div>
+          <div class="subtitle-v text-center">Segundo nivel</div>
+          
+        </div>
+      </q-carousel-slide>
+    
+      
+        
       <q-carousel-slide name="ocho" img-src="/fachada.jpg">
         <div class=" custom-caption">
           <div class="title-v">Conocénos</div>
