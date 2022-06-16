@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <q-card class=" card--info  text-white" :style="getStyle()">
+  <div :class="$q.platform.is.mobile ? 'flex flex-center':''">
+    <q-card class=" card--info  text-white" :style="getStyle()" v-if="!$q.platform.is.mobile">
       <div class="bg--info  ">
         <div >
           <div class="flex flex-center img--info">
@@ -8,6 +8,20 @@
 height: 75px;" alt="" srcset="">
           </div>
           <div class=" flex flex-center  img--info">
+            <q-btn :class="btnClass" class=" btn--vic" :label="title" @click="showModal=!showModal"></q-btn>
+          </div>
+
+        </div>
+      </div>
+    </q-card>
+     <q-card class=" card--info-mobile  text-white" :style="getStyle()"  v-if="$q.platform.is.mobile">
+      <div :class="mobileClass  ">
+        <div class="row" >
+          <div class=" q-mt-lg q-pl-sm col-8 flex items-center">
+            <img :src="icon" style="width: 75px;
+height: 50px;" alt="" srcset="">
+          </div>
+          <div class="q-mt-xl q-pr-sm  col-3">
             <q-btn :class="btnClass" class=" btn--vic" :label="title" @click="showModal=!showModal"></q-btn>
           </div>
 
@@ -68,7 +82,7 @@ import { ref } from 'vue'
 import { useQuasar } from 'quasar'
 export default {
   // name: 'ComponentName',
-  props:['title', 'icon', 'background', 'btnClass', 'cardClass', 'left'],
+  props:['title', 'icon', 'background', 'btnClass', 'cardClass', 'left', 'mobileClass'],
   setup () {
     return {
       showModal:ref(false),
@@ -77,7 +91,15 @@ export default {
   },
   methods:{
     getStyle(){
+        let $q2 = useQuasar();
+        if(!$q2.platform.is.mobile ){
       return "background:url('"+this.background+"'); background-position:center"+(this.left ? 'left':'')
+
+        }
+        else {
+      return "background:url('"+this.background+"'); background-position:center; background-size:100%"
+
+        }
     }
   }
 }

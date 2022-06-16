@@ -2,19 +2,19 @@
   <div>
     <q-card class=" full-width card--info--2 text-white">
       <div class="row">
-        <div class="col-md-8 col-xs-12 col-sm-12">
+        <div :class="$q.platform.is.mobile ?'col-8' :'col-8' ">
           <div :class=" $q.platform.is.mobile ? '' : 'q-pl-xl'">
-           <img  src="~assets/logo.png" alt=""  style="width: 316.79px;
-            height: 342px;" srcset=""/>
+           <img  src="~assets/logo.png" alt=""  :style="$q.platform.is.mobile ? 'width:50px; height: 50px;':
+           'width: 316.79px; height: 342px;'" srcset=""/>
 
         </div>
         </div>
-        <div class="col-md-4 col-xs-12 col-sm-12">
-            <div class="text-white text-center title-v">
+        <div class="col-4">
+            <div :class="$q.platform.is.mobile ? 'text--bold':'title-v'" class="text-white text-center ">
               Historia
             </div>
             <div>
-              <div class=" q-pa-xl text-white text-center subtitle-v">
+              <div v-if="!$q.platform.is.mobile " :class="$q.platform.is.mobile ? '':'q-pa-xl  subtitle-v '" class="  text-white text-center">
              ¡Más de 21 años educando!
             </div>
             <div class="flex flex-center">

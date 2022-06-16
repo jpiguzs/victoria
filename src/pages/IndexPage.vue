@@ -2,9 +2,12 @@
   <q-page>
     <div class="row">
         <div class="col-md-4 col-sm-12  banner q-pa-md">
-          <div class="q-mt-xl q-pt-md title-v ">
-            Un Mejor futuro
-            para tus hijos
+          <div :class="$q.platform.is.mobile ? '': 'q-mt-xl q-pt-md '" class="row title-v ">
+            <div :class="$q.platform.is.mobile ? 'col-8' :'col-12'">
+              Un Mejor futuro
+              para tus hijos
+            </div>
+            
           </div>
           <div class="subtitle-v q-pt-sm">
         “La educación es el arma más
@@ -28,6 +31,7 @@
             background="/vision.jpg"
             btnClass="btn--blue1"
             cardClass="card--modal--vision"
+            mobileClass="bg--info--mobile-blue"
             :left="false"
             >
 
@@ -72,6 +76,7 @@ Una institución inmersa en el cambio constante y en la búsqueda de conocimient
             background="/mision.jpg"
             btnClass="btn--green1"
             cardClass="card--modal--mision"
+            mobileClass="bg--info--mobile-green"
             :left="false"
             >
              <p>
@@ -108,6 +113,7 @@ Una institución inmersa en el cambio constante y en la búsqueda de conocimient
             background="/quienes.jpg"
             btnClass="btn--blue1"
             cardClass="card--modal--vision"
+            mobileClass="bg--info--mobile-blue"
             :left="true"
 
             >

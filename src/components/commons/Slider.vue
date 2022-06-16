@@ -5,7 +5,7 @@
       arrows
       animated
       v-model="slide"
-      height="400px"
+      :height=" $q.platform.is.mobile ?'200px': '400px'"
       control-color="btn-slider"
 
          control-type="regular"
@@ -62,7 +62,7 @@
       </q-carousel-slide>
        <q-carousel-slide name="six" img-src="/laboratorio.jpg">
         <div class=" custom-caption">
-          <div class="title-v">Educación Tecnologica</div>
+          <div class="title-v">Educación Tecnológica</div>
           
           
         </div>
@@ -91,8 +91,8 @@
       </q-carousel-slide>
       <q-carousel-slide name="four" img-src="/diversificado.jpg">
         <div class=" custom-caption">
-          <div class="title-v">Preparación Estudios superiores</div>
-          <div class="subtitle-v text-center">Segundo nivel</div>
+          <div class="title-v  text-center">Preparación a Estudios Superiores</div>
+          
           
         </div>
       </q-carousel-slide>
@@ -150,9 +150,11 @@
 
 <script>
 import { ref } from 'vue'
+import { useQuasar } from 'quasar'
 export default {
    name: 'Slider-vue',
   setup () {
+    const $q = useQuasar();
     const showModal = ref(false);
     const selectImg = ref(null);
     const setImgToModal= (img)=>{
@@ -165,7 +167,8 @@ export default {
       showModal,
       selectImg,
       setImgToModal,
-       fullscreen: ref(false)
+       fullscreen: ref(false), 
+       $q
     }
   }
 }
