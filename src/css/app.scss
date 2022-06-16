@@ -130,10 +130,11 @@ color: #FFFFFF;
   color: white;
   position: absolute;
   padding: 10px;
+  top:50%;
   /* position the top  edge of the element at the middle of the parent */
   left: 50%; /* position the left edge of the element at the middle of the parent */
   border-radius: 20px ;
-  transform: translate(-50%,);
+  transform: translate(-50%,-50%);
 }
 .btn--slider{
   position: absolute;

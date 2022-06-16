@@ -12,33 +12,91 @@
           v-model:fullscreen="fullscreen"
       infinite
     >
-      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
+      <q-carousel-slide name="first" img-src="/queOfrecemos.jpg">
         <div class=" custom-caption text-center">
           <div class="title-v">¿Que ofrecemos?</div>
-          <div class="subtitle-v ">¡Exelencia académica en las mejores instalaciones!</div>
+          <div class="subtitle-v ">¡Excelencia académica en las mejores instalaciones!</div>
 
         </div>
         <div class="btn--slider">
-            <q-btn class="btn--blue1 btn--vic" label="Ver mas" @click="setImgToModal('https://cdn.quasar.dev/img/mountains.jpg')">
+           
 
-            </q-btn>
+          
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-        <div class=" custom-caption">
-          <div class="text-h2">Second stop</div>
-          <div class="text-subtitle1">Famous City</div>
+      <q-carousel-slide name="Dos" img-src="/formacion.jpg">
+        <div class=" custom-caption text-center">
+          <div class="title-v">Formación Integral</div>
+          <div class="subtitle-v "></div>
+
         </div>
         <div class="btn--slider">
-            <q-btn class="btb--blue1" label="Ver mas">
+           
 
-            </q-btn>
+          
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
+      <q-carousel-slide name="tres" img-src="/docentes.jpg">
+        <div class=" custom-caption text-center">
+          <div class="title-v">Docentes Comprometidos</div>
+          <div class="subtitle-v "></div>
+
+        </div>
+        <div class="btn--slider">
+           
+
+          
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="second" img-src="/basico.jpg">
         <div class=" custom-caption">
-          <div class="text-h2">Third stop</div>
-          <div class="text-subtitle1">Famous Bridge</div>
+          <div class="title-v">Educación Básica</div>
+          
+        </div>
+        <div class="btn--slider">
+            
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="third" img-src="/media3.jpg">
+        <div class=" custom-caption">
+          <div class="title-v text-center">Educación Media General</div>
+          <div class="subtitle-v  text-center">Primer nivel</div>
+          
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="four" img-src="/diversificado.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Educación Media General</div>
+          <div class="subtitle-v text-center">Segundo nivel</div>
+          
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="five" img-src="/cancha.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Area Deportiva</div>
+          
+          
+        </div>
+      </q-carousel-slide>
+       <q-carousel-slide name="six" img-src="/laboratorio.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Laboratorio de Computaciòn</div>
+          
+          
+        </div>
+      </q-carousel-slide>
+        <q-carousel-slide name="seven" img-src="/quimica.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Laboratorio de Química</div>
+          
+          
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="ocho" img-src="/fachada.jpg">
+        <div class=" custom-caption">
+          <div class="title-v">Conocénos</div>
+          
+          
         </div>
       </q-carousel-slide>
       <template v-slot:control>
