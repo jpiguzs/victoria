@@ -101,7 +101,7 @@
         
       <q-carousel-slide name="ocho" img-src="/fachada.jpg">
         <div class=" custom-caption">
-          <div class="title-v">Conocénos</div>
+          <div class="title-v">Conócenos</div>
           
           
         </div>
