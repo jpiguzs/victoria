@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "victoria-tesis"
-  }
+    "default": "san-lazaro-2",
+    "sanlazaro2": "san-lazaro-2"
+  },
+  "targets": {}
 }

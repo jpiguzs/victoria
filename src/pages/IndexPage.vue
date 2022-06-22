@@ -118,33 +118,16 @@ Una institución inmersa en el cambio constante y en la búsqueda de conocimient
 
             >
            <p>
-             Aquello a lo queremos avanzar a medio y largo plazo, es nuestra aspiración, nuestro deseo.
+              Somos una institución con más de 21 años de experiencia en el cuidado, estimulación y educación integral de estudiantes en los niveles de Primaria y Bachillerato. San Lázaro II es un instituto de alta calidad educativa acreditado por el Ministerio de Educación.
+          </p>
+          <p>
+          Nuestro colegio es un ecosistema educativo diseñado especialmente para estimular la inteligencia, el aprendizaje, la innovación y la creatividad, brindando a los niños las más variadas oportunidades para ir empezando a entender la vida.
+          </p>
+          <p>
+          Consideramos de gran importancia brindar una sólida educación en todas las etapas de educación escolar desde primaria hasta bachillerato, para que el alumno pueda desarrollar una actitud positiva y abierta al conocimiento y al aprendizaje, que estimule el juego, la creatividad, la música y la naturaleza, aspectos básicos para el éxito en las siguientes etapas de su vida y educación.
+          </p>
 
-           </p>
-           <p>
-          Profundizar en nuestro trabajo para que seamos:
 
-           </p>
-           <p>
-              Una institución, multidisciplinaria e integrada a su región y al mundo; destinada a impartir educación en los sub-sistemas de Educación Inicial, Educación Primaria y Educación Media General.
-
-           </p>
-           <p>
-              Autónoma y concebida como un ámbito institucional con independencia académica, científica y económica. Libre de cualquier poder e influencia ideológica, política o religiosa.
-
-           </p>
-           <p>
-              De tradición humanista, científica y cultural cuya comunidad participe de la constante preocupación por alcanzar el saber universal y la verdad.
-
-           </p>
-           <p>
-Que sostenga los principios democráticos de igualdad y libertad, el respeto por los derechos humanos, la ética y la justicia, las prácticas de tolerancia y el respeto por la diversidad cultural y que rechace toda forma de discriminación tal como lo demanda la Constitución de la República Bolivariana de Venezuela. Donde las ideas sean desarrolladas y discutidas libremente en un ambiente motivador para el estudio, la creación y el logro.
-
-           </p>
-           <p>
-Una institución inmersa en el cambio constante y en la búsqueda de conocimiento que caracterizan al mundo contemporáneo, capaz de anticiparse a ellas y de convertirse en un agente positivo de estas transformaciones. Con vocación interdisciplinaria, que no limita su campo de acción y reflexión en el que combine diversas disciplinas que abarcan la cultura en un sentido amplio y que está integrado por las humanidades, las artes, las ciencias sociales, las ciencias básicas y la tecnología.
-
-           </p>
 
 
 

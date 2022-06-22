@@ -1,8 +1,8 @@
 <svg width="935" height="600" viewBox="0 0 935 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M82 103C82 82.5655 98.5655 66 119 66H935V572H119C98.5655 572 82 555.435 82 535V103Z" fill="url(#pattern0)"/>
 <circle cx="66" cy="487" r="58" fill="#426EF0"/>
-<path d="M778.149 71.1406L827.234 12.4881L848.616 100.871L778.149 71.1406Z" fill="#FF6FB5"/>
-<path d="M669.5 527.912L713.5 533.912L669.5 579.912L627 573.412L669.5 527.912Z" fill="#AB46D2"/>
+<path d="M778.149 71.1406L827.234 12.4881L848.616 100.871L778.149 71.1406Z" fill="#FFDE59"/>
+<path d="M669.5 527.912L713.5 533.912L669.5 579.912L627 573.412L669.5 527.912Z" fill="#FFDE59"/>
 <path d="M37.9059 111.378L51.3499 22L138.431 97.7272L124.083 184.243L37.9059 111.378Z" fill="#55D8C1"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
