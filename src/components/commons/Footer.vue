@@ -1,7 +1,7 @@
 <template>
   <div class="footer-v full-width q-pa-md">
       <div class="row">
-        <div class="col--md-4 col-xs-12 col-sm-12">
+        <div class="col-md-4 col-xs-12 col-sm-12">
           <div class="text--bold text-white row text--new">
              <img src="Marker.svg" style="width:24px" alt="" srcset=""> <span class="q-pl-sm" >Dirección:</span>
 
@@ -30,7 +30,7 @@
 
         </div>
 
-        <div :class="$q.platform.is.mobile ? '' : 'justify-end q-pr-md'" class="col-md-8 col-xs-12 col-sm-12 row ">
+        <div :class="$q.platform.is.mobile ? '' : 'justify-end q-pr-md'" class="col-md-8 text-center col-xs-12 col-sm-12 row ">
 
             <div class="text--bold text-white  text--new">
               <div>

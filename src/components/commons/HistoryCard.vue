@@ -10,7 +10,7 @@
         </div>
         </div>
         <div class="col-4">
-            <div :class="$q.platform.is.mobile ? 'text--bold':'title-v'" class="text-white text-center ">
+            <div :class="$q.platform.is.mobile ? 'text--bold':'title-v'" class="text-white text-center text-capitalize ">
               Historia
             </div>
             <div>
@@ -37,7 +37,7 @@
                  <img src="~assets/logo.png"  style="width: 75px;
                   height: 75px;" alt="" srcset="">
           </div>
-          <div class="col-2 q-pt-md text-center text-white text--bold  text-h4">
+          <div class="col-2 q-pt-md  text-capitalize text-center text-white text--bold  text-h4">
                 Historia
           </div>
 
