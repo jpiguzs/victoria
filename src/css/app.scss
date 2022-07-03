@@ -37,7 +37,7 @@ body{
 }
 .card--info--2{
 
-background: linear-gradient(90deg, #55D8C1 0%, #426EF0 96.46%);
+background: linear-gradient(90deg, #58B9A8 0%, #426EF0 96.46%);
 border-radius: 60px;
 padding:42px;
 margin: 10px;
@@ -61,7 +61,7 @@ height: 100% ;
 
 }
 .bg--info--mobile-green{
-background: linear-gradient(90.09deg, #55D8C1 3.3%, rgba(217, 217, 217, 0) 98.94%);
+background: linear-gradient(90.09deg, #58B9A8 3.3%, rgba(217, 217, 217, 0) 98.94%);
 width:100%;
 height: 100% ;
 }
@@ -73,7 +73,7 @@ color: white;
 }
 .btn--green1{
 
-    background: #55D8C1;
+    background: #58B9A8;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px;
     color: white;
@@ -95,7 +95,7 @@ width:100vw;
 padding: 10px;
 }
 .card--modal--history{
-    background: linear-gradient(108.28deg, #428AF0 4.97%, #55D8C1 80.99%);
+    background: linear-gradient(108.28deg, #428AF0 4.97%, #58B9A8 80.99%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px !important;
     width:100vw;
@@ -163,12 +163,13 @@ color: #FFFFFF;
   transform: translate(-50%,);
 }
 .footer-v{
-  background:linear-gradient(97.41deg, rgba(66, 110, 240, 0.96) 26.62%, #55D8C1 55.76%);;
+  background:linear-gradient(97.41deg, rgba(66, 110, 240, 0.96) 26.62%, #58B9A8 55.76%);;
 }
 .text--new{
   font-size: 16px
 }
 @media (max-width: 600px) {
+    
   .title-v {
     font-weight: 1000;
     font-family: 'Poppins-bold';
@@ -182,10 +183,10 @@ color: #FFFFFF;
 .banner{
   background-image: url('/backMovil.svg') ;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
   width:100% ;
-  height: 100% ;
+  height:286.03px ;
 }
 .card--info{
     height: 300px;

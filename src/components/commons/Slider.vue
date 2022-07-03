@@ -6,7 +6,7 @@
       animated
       v-model="slide"
       :height=" $q.platform.is.mobile ?'200px': '400px'"
-      :control-color="$q.platform.is.mobile? false :' btn-slider'"
+      :control-color="$q.platform.is.mobile? false :'btn-slider'"
         swipeable
          control-type="regular"
           v-model:fullscreen="fullscreen"

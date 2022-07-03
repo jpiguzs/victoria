@@ -1,20 +1,20 @@
 <template>
   <q-page>
     <div class="row">
-        <div class="col-md-4 col-sm-12  banner q-pa-md">
-          <div :class="$q.platform.is.mobile ? '': 'q-mt-xl q-pt-md '" class="row title-v ">
-            <div :class="$q.platform.is.mobile ? 'col-8' :'col-12'">
+        <div :class="$q.platform.is.mobile ? 'q-pt-none q-pl-md q-pr-md':'q-pa-md'" class="col-md-4 col-sm-12  banner ">
+          <div :class="$q.platform.is.mobile ? 'q-pa-sm': 'q-mt-xl q-pt-md '" class="row title-v ">
+            <div v-if="!$q.platform.is.mobile " :class="$q.platform.is.mobile ? 'col-8' :'col-12'">
               Un Mejor futuro
               para tus hijos
             </div>
             
           </div>
-          <div class="subtitle-v q-pt-sm">
+          <div v-if="!$q.platform.is.mobile "  class="subtitle-v q-pt-sm">
         “La educación es el arma más
           poderosa que puedes usar para
           cambiar el mundo”
           </div>
-          <div class="text-right subtitle-v q-pt-sm">
+          <div v-if="!$q.platform.is.mobile " class="text-right subtitle-v q-pt-sm">
                Nelson Mandela.
           </div>
 
