@@ -14,7 +14,7 @@
           poderosa que puedes usar para
           cambiar el mundo”
           </div>
-          <div v-if="!$q.platform.is.mobile " class="text-right subtitle-v q-pt-sm">
+          <div v-if="!$q.platform.is.mobile " class="text-right subtitle-v2 q-pt-sm">
                Nelson Mandela.
           </div>
 
